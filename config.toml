@@ -1,0 +1,43 @@
+baseurl = "/"
+languageCode = "en-US"
+title = "Tu Hoang"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "IMG_7574.JPG"
+  author = "Tu Hoang"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "tuhoang355"
+  Email         = "tuhoang355@utexas.edu"
+  Facebook      = "tu.hoang.39395"
+  Snapchat      = "@awesomero.dos"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "project1"
+  identifier = "project1"
+  weight = 200
+  url = "/project1/"
+[[menu.main]]
+  name = "project2"
+  identifier = "project2"
+  weight = 200
+  url = "/project2/"

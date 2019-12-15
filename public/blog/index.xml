@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Tu Hoang</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Tu Hoang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 14 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python Throughout The Semester</title>
+      <link>/blog/python-throughout-the-semester/</link>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/python-throughout-the-semester/</guid>
+      <description>Python is one of the most popular languages used in the computer science industry. It can be both easy and complex at the same time depending on the coder experience level. Before trying to do more complex coding, lets get the hang of some of the more basic codes. For the ones that are more comfortable progamming using R, this might be a good way to begin using python.</description>
+    </item>
+    
+  </channel>
+</rss>

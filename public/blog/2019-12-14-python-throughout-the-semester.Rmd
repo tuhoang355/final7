@@ -1,0 +1,95 @@
+---
+title: Python Throughout The Semester
+author: Tu Hoang
+date: '2019-12-14'
+slug: python-throughout-the-semester
+categories: []
+tags: []
+description: ''
+---
+
+Python is one of the most popular languages used in the computer science industry. It can be both easy and complex at the same time depending on the coder experience level. Before trying to do more complex coding, lets get the hang of some of the more basic codes. For the ones that are more comfortable progamming using R, this might be a good way to begin using python.
+
+By using library(reticulate), python coding can be done in RStudio!
+
+```{python}
+print("hello world")
+print("I am a fun Guy")
+print("I LOVE SDS348 ALOT")
+```
+
+By importing numpy as np, we can even use python to perform basic calculations! Python can also be used to assign values to variables. The possibilites are great!!
+
+```{python}
+import numpy as np
+
+2+2
+100+100
+100+100+200+300+500
+700+700+7000
+
+three = 3
+two = 2
+two + three + two + two
+
+
+```
+
+Here are more complex and real world function of python!
+```{python}
+my_seq1 = "ATCATCATG"
+my_seq2 = "CAGCCCAATCAGGCTCTACTGCCACTAAACTTACGCAGGATATATTTACGCCGACGTACT"
+
+def count_kmers(read, k):
+    
+ 
+    counts = {}
+  
+    num_kmers = len(read) - k + 1
+   
+    for i in range(num_kmers):
+     
+        kmer = read[i:i+k]
+      
+        if kmer not in counts:
+            counts[kmer] = 0
+
+        counts[kmer] += 1
+ 
+    return counts
+
+# my_seq1
+count_kmers("ATCATCATG",3)
+
+
+```
+```{python}
+# my_seq 2
+
+def count_kmers(read, k):
+    
+ 
+    counts = {}
+  
+    num_kmers = len(read) - k + 1
+   
+    for i in range(num_kmers):
+     
+        kmer = read[i:i+k]
+      
+        if kmer not in counts:
+            counts[kmer] = 0
+
+        counts[kmer] += 1
+ 
+    return counts
+
+count_kmers("CAGCCCAATCAGGCTCTACTGCCACTAAACTTACGCAGGATATATTTACGCCGACGTACT",3)
+
+
+
+```
+The two python code chunk above show one of the many different application of python in the field of sciences. In the case of the two python code chunk above, we are trying to find k-mers.
+
+I hope you enjoy this brief explanation and demostration of python. 
+
